@@ -167,4 +167,166 @@
 .right-deals {
     width: 250px;
     padding: 7px;
+    text-align: center;
+}
+
+body {
+    background-color: #c4d6d6;
+}
+
+.main-section {
+    background-image: url("hero_image.jpg");
+    height: 45vh;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.msg {
+    background-color: white;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    width: 97%;
+}
+
+.msg a:link {
+    color: #007185;
+}
+
+.shop-section {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 8px 10px 20px 10px;
+}
+
+.box {
+    width: 350px;
+    height: 400px;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+}
+
+.box-content {
+    height: 90%;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.box-img {
+    margin-top: 30px;
+    height: 300px;
+    background-size: cover;
+    margin: 8px 0px 20px 0px;
+    background-repeat: no-repeat;
+}
+
+.box-content p {
+    color: #007185;
+}
+
+.foot-pannel1 {
+    background-color: #37475a;
+    height: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: small;
+}
+
+.foot-pannel1:hover {
+    opacity: 0.9;
+
+}
+
+.foot-pannel2 {
+    background-color: #232f3e;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    padding-top: 70px;
+}
+
+
+ul p {
+    font-weight: bold;
+}
+
+ul a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin: 10px 0px;
+    color: #c2dad6;
+}
+
+ul a:hover {
+    text-decoration: underline;
+}
+
+.foot-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #232f3e;
+}
+
+.pannel3 {
+    height: 320px;
+    background-color: #131a22;
+    color: white;
+    font-size: 11px;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    padding: 30px 290px 10px 290px;
+}
+
+.advertize_links {
+    width: 30px;
+}
+
+.advertize_links a:hover {
+    text-decoration: underline;
+}
+
+.upper {
+    font-weight: bold;
+    color: rgb(234, 224, 224);
+}
+
+.lower {
+    color: #d3dfee;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.final-pannel {
+    background-color: #131a22;
+    color: rgb(234, 224, 224);
+    font-size: small;
+    padding-bottom: 30px;
+}
+
+.final-upper {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-left: 37%;
+    margin-right: 37%;
+    margin-bottom: 8px;
+}
+
+.final-lower {
+    display: flex;
+    justify-content: center;
+
 }
